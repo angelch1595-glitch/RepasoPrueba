@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BackendComedor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+35bfaf848dd6271fa87d1426053d7fb7bdac5808")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c424f0e099a5395bf358122300a28a7c18da7b58")]
 [assembly: System.Reflection.AssemblyProductAttribute("BackendComedor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BackendComedor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
