@@ -36,6 +36,8 @@ builder.Services.AddScoped<IServicioProducto, ServicioProducto>();
 builder.Services.AddScoped<ITokenServico, TokenServicio>();
 builder.Services.AddScoped<IAuthServicio, AuthServicio>();
 builder.Services.AddScoped<IRolServicio, RolServicio>();
+builder.Services.AddScoped<IProveedor, ProveedorRepository>();
+builder.Services.AddScoped<IServicioProveedor, ServicioProveedor>();
 builder.Services.AddSwaggerGen(c =>
 {
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme

@@ -8,6 +8,7 @@ namespace BackendComedor.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize]
     public class ProductoController:ControllerBase
     {
         private readonly IServicioProducto _servicioProducto;
